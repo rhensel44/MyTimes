@@ -51,14 +51,33 @@ header {
 .column.large {
   width: 630px;
   display: flex;
+  border: 1px solid black;
 }
 
 .column.medium {
   width: 300px;
   display: flex;
+  border: 1px solid black;
 }
 
 .column.small {
   width: 240px;
   display: flex;
+  border: 1px solid black;
+}
+
+.motherarticle {
+  border: 1px solid black;
+}
+
+.orcaarticle {
+  border: 1px solid black;
+}
+
+.burgerarticle {
+  border: 1px solid black;
+}
+
+.picheadline {
+  border: 1px solid black;
 }
