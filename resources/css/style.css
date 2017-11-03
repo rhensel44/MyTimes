@@ -39,30 +39,33 @@ header {
 
 .main {
   display: flex;
+  width: 1232px;
+  margin: 0 auto 78px auto;
   padding-top: 116px;
   border: 1px solid black;
 }
 
 .column {
+  display: flex;
   flex-direction: column;
+  margin-right: 32px;
   border: 1px solid black;
 }
 
 .column.large {
   width: 630px;
-  display: flex;
   border: 1px solid black;
+  display: flex;
+  align-items:center;
 }
 
 .column.medium {
   width: 300px;
-  display: flex;
   border: 1px solid black;
 }
 
 .column.small {
   width: 240px;
-  display: flex;
   border: 1px solid black;
 }
 
@@ -78,6 +81,77 @@ header {
   border: 1px solid black;
 }
 
-.picheadline {
+.articletitle{
   border: 1px solid black;
+  height: 104px;
+}
+
+.mothertitle {
+  display: flex;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+  height: 300px;
+  background-image: url("../pictures/img-story-main.png");
+}
+
+.mothertitle p {
+  margin-top: 0;
+}
+
+.earthheadline {
+  display: flex;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  height: 300px;
+  margin-top: 15px;
+  justify-content: center;
+  background-image: url("../pictures/img-story-2.png");
+}
+
+.researchheadline {
+  display: flex;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  margin-top: 15px;
+  height: 300px;
+  background-image: url("../pictures/img-story-3.png");
+  text-align: center;
+}
+
+.catheadline {
+  display: flex;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  margin-top: 15px;
+  height: 300px;
+  background-image: url("../pictures/img-story-1.png");
+}
+
+.bottomhalf {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 17px;
+  text-align: center;
+}
+
+.tinyone .tinytwo {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+h2 {
+
+}
+
+.narrative {
+  margin-top: 16px;
 }
